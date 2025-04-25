@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher Connect App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Teacher Connect</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#curriculum">Curriculum</a>
+      <a href="#lesson-notes">Lesson Notes</a>
+      <a href="#opportunities">Opportunities</a>
+      <a href="#login" id="loginBtn">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to Teacher Connect</h2>
+      <p>Connecting teachers, sharing knowledge, and opportunities!</p>
+    </section>
+
+    <section id="curriculum">
+      <h2>Curriculum Sharing</h2>
+      <p>Share and access curricula for primary and secondary schools.</p>
+    </section>
+
+    <section id="lesson-notes">
+      <h2>Lesson Notes</h2>
+      <p>Upload and download lesson notes from teachers.</p>
+    </section>
+
+    <section id="opportunities">
+      <h2>Opportunities & Scholarships</h2>
+      <p>Find scholarships, opportunities, and resources for teachers.</p>
+    </section>
+
+    <div id="loginForm" class="modal">
+      <form id="login" class="form">
+        <h3>Login</h3>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+        <p>Don't have an account? <a href="#signupForm" id="signupLink">Sign up</a></p>
+      </form>
+    </div>
+
+    <div id="signupForm" class="modal">
+      <form id="signup" class="form">
+        <h3>Sign Up</h3>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="newUsername">Username</label>
+        <input type="text" id="newUsername" name="newUsername" required>
+        <label for="newPassword">Password</label>
+        <input type="password" id="newPassword" name="newPassword" required>
+        <button type="submit">Sign Up</button>
+        <p>Already have an account? <a href="#loginForm" id="loginLink">Login</a></p>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Teacher Connect. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
