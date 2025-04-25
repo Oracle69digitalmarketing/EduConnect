@@ -120,3 +120,4 @@ Follow us on Twitter: @EduConnectApp.
 ---
 
 Thank you for using EduConnect! We hope this platform helps you grow as an educator and find new ways to inspire and connect with students.
+
